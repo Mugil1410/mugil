@@ -8,9 +8,12 @@
     <title>Mugil</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- font icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap + JohnDoe main styles -->
 	<link rel="stylesheet" href="assets/css/johndoe.css">
     <link rel="stylesheet" href="assets/css/exp.css">
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
@@ -98,16 +101,23 @@
                         <h5 class="mb-3">Junior software developer</h5>
                         <a href="https://anwestsolution.com/">Anwest software solution pvt ltd</a>
                         <ul class="mt40 info list-unstyled">
-                            <li><span>Developed and Maintained Front-End Functionality:</span>Collaborated with cross-functional teams to enhance a multi-currency exchange web application using Laravel. Implemented performance improvements, ensuring a seamless user experience</li>
-                            <li><span>System Architecture and Database Management:</span> Contributed to designing the system architecture and efficiently managed the database using MongoDB and Laravel.
-                                Bug Identification and Solutions: Conducted manual testing to identify and address bugs, ensuring software quality.
-                                </li>
-                            <li><span>Website Revamp:</span> Led the re-development of the company website using Laravel, implementing a content management system for easier updates and maintenance.
+                            <li><span>Back-end developer (Laravel) in mx-project</span>
+                                <ul>
+                                    <li>Developed a Tenant module for a money exchange web
+                                        application project, contributing to its functionality and
+                                        performance.</li>
+                                    <li>Conducted manual testing to identify and address bugs and
+                                        ensure software quality.</li>
+                                </ul>
                             </li>
-                            <li><span>User Interface Enhancement:</span> Designed and implemented a new user interface, enhancing user interaction and experience.
+                            <li><span>Back-end developer (Laravel) in mx-project</span>
+                                <ul>
+                                    <li>Led the Re-development of the company website using
+                                        Laravel, implementing a content management system for
+                                        easier updates and maintenance</li>
+                                    <li>Tech: Laravel, PHP, MySQL, HTML, CSS, Ajax</li>
+                                </ul>
                             </li>
-                            <li><span>Full-Stack Proficiency:</span> Demonstrated proficiency in full-stack development, utilizing technologies like Express.js, React.js, Laravel, and PostgreSQL.</li>
-                            
                         </ul>  
                         <hr>
                     </div>
@@ -116,6 +126,51 @@
             </div>
         </div>
     </div>
+
+    <section class="section bg-dark text-center">
+        <div class="container">
+            <h2 class="text-light mb-5 font-weight-normal">Tech Stacks I am Familiar With</h2>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div >
+                        <div>
+                            <div class="m-auto tech-logo">
+                                <img src="./assets/imgs/html-css-js.png" alt="MERN Stack Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div>
+                        <div>
+                            <div class="m-auto tech-logo">
+                                <img src="./assets/imgs/laravel.png" alt="MERN Stack Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div>
+                        <div>
+                            <div class="tech-logo">
+                                <img class="align-content-lg-center" src="./assets/imgs/mern.jpeg" alt="MERN Stack Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div >
+                        <div>
+                            <div class="m-auto tech-logo">
+                                <img src="./assets/imgs/python.png" alt="MERN Stack Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat the above div for each tech logo -->
+            </div>
+        </div>
+    </section>
    
             
 
@@ -168,7 +223,6 @@
                             <P>SSLC</P>
                             <P class="subtitle">Completed <strong>HSC</strong> in  Vivekananda Vidyalaya Matric. Hr. Sec. School, sriperumbudur
                             </P>
-                            
                         </div>
                     </div>
                 </div>
@@ -215,128 +269,190 @@
             <a class="btn bg-primary w-lg" href="mailto: mugilaananthan@gmail.com">For Hire</a>
         </div>
     </section>
-    <section class="section" id="blog">
+
+
+    <!-- Portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
         <div class="container">
-            <h2 class="mb-5">My <span class="text-danger">Works</span></h2>
-            <div class="row">
-                <!-- blog-card -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog3.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter="*" class="active">
+                        All
+                    </a>
+                    <a href="#" data-filter=".frontend">
+                        Frontend
+                    </a>
+                    <a href="#" data-filter=".laravel">
+                        Laravel
+                    </a>
+                    <a href="#" data-filter=".mern">
+                        MERN
+                    </a>
+                    <a href="#" data-filter=".python">
+                        Python
+                    </a>
+                    <a href="#" data-filter=".flutter">
+                        Flutter
+                    </a>
+                    <a href="#" data-filter=".ui-ux">
+                        UI/UX
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 frontend">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/frontend-1.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Mugil Snaps</h6>
+                                    <p class="subtitle">Simple website incorporates essential functionalities, including Home, About, Work and Send Query</p>
+                                    <a href="https://mugil-snaps.netlify.app/" style="text-decoration: none; color: white;"><i class="fa fa-play"></i>  Demo</a>
+                                </div>
+                            </div> 
+                        </div>                         
                     </div>
-                    <div class="content-holder">
-                        <h6 class="title">Face Dtection Alerting System</h6>
-                        <p>This application is bulit to send an whatsapp alert to admin by using OpenCV</p>
+                    <div class="col-md-6 col-lg-4 laravel">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/laravel-1.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Laravel - CMS</h6>
+                                    <p class="subtitle">It empowers admins to manage job postings, applicant interactions, contact form queries, subscriptions, and resume parsing.</p>
+                                    <a href="http://laravel-cms.infinityfreeapp.com" style="text-decoration: none; color: white;"><i class="fa fa-play"></i> Demo</a>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 laravel">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/laravel-2.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Laravel Auth-sys</h6>
+                                    <p class="subtitle">The project involves implementing authentication,google OAuth, form validation</p>
+                                    <a href="https://github.com/Mugil1410/laravel-login/tree/master?tab=readme-ov-file" style="text-decoration: none; color: white;"><i class="fa fa-chain"></i> code</a>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 mern">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/mern-1.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Mini-ecommerce site</h6>
+                                    <p class="subtitle">Developed a mini e-commerce site</p>
+                                    <a href="https://github.com/Mugil1410/AEMC/tree/main/AEMC" style="text-decoration: none; color: white;"><i class="fa fa-chain"></i> code</a>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div> 
+                    <div class="col-md-6 col-lg-4 mern">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/mern-2.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/mern-2.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Blogify</h6>
+                                    <p class="subtitle">Users can perform "CURD" on posts. The app uses React’s useState and useEffect hooks for seamless interaction.</p>
+                                    <a href="https://blogify-react-mugil.netlify.app//" style="text-decoration: none; color: white;"><i class="fa fa-play"></i> Demo</a>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div>
+                    <div class="col-md-6 col-lg-4 mern">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/mern-3.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/mern-2.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Express - Api</h6>
+                                    <p class="subtitle"></p>
+                                    <a href="https://express-secure-student-data-api.onrender.com/" style="text-decoration: none; color: white;"><i class="fa fa-play"></i> Demo</a>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div>
+                    <div class="col-md-6 col-lg-4 python">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/python-1.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Face Dtection Alerting System</h6>
+                                    <p class="subtitle">his application is bulit to send an whatsapp alert to admin by using OpenCV</p>
+                                    <a href="https://github.com/Mugil1410/fdas" style="text-decoration: none; color: white;"><i class="fa fa-chain"></i> code</a>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 flutter"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/flutter-1.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Flutter - Portfolio</h6>
+                                    <p class="subtitle">This application serves as a digital portfolio, showcasing the user’s personal details</p>
+                                    <a href="https://github.com/Mugil1410/flutter-portfolio" style="text-decoration: none; color: white;"><i class="fa fa-chain"></i> code</a>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 flutter"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/flutter-2.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Flutter - Bucket list</h6>
+                                    <p class="subtitle">This application allows users to create, manage, and track their personal bucket list items.</p>
+                                    <a href="https://github.com/Mugil1410/flutter-bucketlist" style="text-decoration: none; color: white;"><i class="fa fa-chain"></i> code</a>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div>
+                    <div class="col-md-6 col-lg-4 ui-ux">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/ui-ux-1.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Workout Wave</h6>
+                                    <p class="subtitle">The project involves creating minimalist design for a Gym Blog site Using Figma</p>
+                                    <a href="https://www.figma.com/community/file/1324986601857376719/workoutwave" style="text-decoration: none; color: white;"><i class="fa fa-play"></i> Demo</a>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of portfolio section -->
 
-                        <a href="https://github.com/Mugil1410/fdas" class="read-more">code<i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog1.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Mugil_Snaps</h6>
-                        <p>Simple website incorporates essential functionalities, including Home, About, Work and Send Query</p>
-                        <a href="https://mugil-snaps.netlify.app/" class="read-more">Demo <i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-
-                <!-- blog-card -->
-                <!-- end of blog wrapper -->
-               
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog5.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Sign-in & Sign-up page with DB connection</h6>
-                        <p>The project involves implementing authentication,google OAuth, form validation, and database connectivity to manage user credentials, Developed in <strong>Laravel Framework</strong></p>
-
-                        <a href="https://github.com/Mugil1410/laravel-login/tree/master?tab=readme-ov-file" class="read-more">Code<i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-                 <!-- blog-card -->
-                 <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog6.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Workout Wave</h6>
-                        <p>The project involves creating minimalist design for a Gym Blog site <strong>Using Figma</strong></p>
-
-                        <a href="https://www.figma.com/community/file/1324986601857376719/workoutwave" class="read-more">Preview<i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-                 <!-- blog-card -->
-                 <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog7.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Amazon mini-ecommerce site</h6>
-                        <p>Developed a mini e-commerce site, mirroring Amazon, using React.js, Express.js, and MongoDB</p>
-
-                        <a href="https://github.com/Mugil1410/AEMC/tree/main/AEMC" class="read-more">Code<i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog8.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Anwest software solution pvt ltd</h6>
-                        <p> Implementing a content management system for
-                            easier updates and maintenance</p>
-
-                        <a href="https://anwestsolution.com/" class="read-more">Demo<i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog10.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Flutter Bucket List App</h6>
-                        <p> The Flutter Bucket List App is a user-friendly mobile application developed using the Flutter framework. This application allows users to create, manage, and track their personal bucket list items.</p>
-
-                        <a href="https://github.com/Mugil1410/flutter-bucketlist" class="read-more">Demo<i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog9.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Flutter Portfolio</h6>
-                        <p> This application serves as a digital portfolio, showcasing the user’s personal details, experiences, skills, certifications, and social media presence.</p>
-                        <a href="https://github.com/Mugil1410/flutter-portfolio" class="read-more">Demo<i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog11.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Blogify</h6>
-                        <p> Users can create, edit, and delete blog posts by entering titles and descriptions. Leveraging React's useState and useEffect hooks, the app provides seamless interaction. Check it out and start sharing your thoughts!</p>
-                        <a href="https://blogify-react-mugil.netlify.app/" class="read-more">Demo<i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog12.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">laravel - Content management system</h6>
-                        <p> It empowers admins to manage job postings, applicant interactions, contact form queries, subscriptions, and resume parsing. The system is hosted on a Laravel framework with MySQL as the database</p>
-                        <a href="http://laravel-crm.free.nf" class="read-more">Demo<i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-
+    <!-- <section class="section" id="blog">
+    <div class="container">
+        <h2 class="mb-5">My <span class="text-danger">Works</span></h2>
+        <div class="row">
+            <div class="blog-card">
+                <div class="img-holder">
+                    <img src="assets/imgs/blog3.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="content-holder">
+                    <h6 class="title">Face Detection Alerting System</h6>
+                    <p>This application is built to send a WhatsApp alert to the admin using OpenCV.</p>
+                    <a href="https://github.com/Mugil1410/fdas" class="read-more">code<i class="ti-angle-double-right"></i></a>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section> -->
 
     <div class="section contact" id="contact">
         <div class="container">
