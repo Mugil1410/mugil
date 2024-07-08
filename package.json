@@ -1,0 +1,12 @@
+{
+  "name": "mugil_portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-scss":"sass assets/scss/johndoe.scss assets/css/johndoe.css  "
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
